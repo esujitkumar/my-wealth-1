@@ -1,0 +1,29 @@
+{
+  "name": "my-wealth-pwa",
+  "private": true,
+  "version": "0.7.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js",
+    "start": "node server.js",
+    "android:init": "npx cap add android",
+    "android:sync": "npm run build && npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5"
+  }
+}

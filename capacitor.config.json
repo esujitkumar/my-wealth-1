@@ -1,0 +1,6 @@
+{
+  "appId": "com.mywealth.personal",
+  "appName": "My Wealth",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
